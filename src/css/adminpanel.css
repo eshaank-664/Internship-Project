@@ -1,0 +1,41 @@
+ /* Admin Panel Container */
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center;
+  height: 100vh;  
+}
+
+/* Heading */
+.admin-heading {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Buttons */
+.admin-panel-botn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+   
+}
+
+/* Hover Effect */
+.admin-panel botn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Active Effect */
+.admin-panel botn:active {
+  transform: scale(0.98);
+}

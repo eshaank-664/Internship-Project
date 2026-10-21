@@ -1,0 +1,117 @@
+  
+
+nav{
+   display: flex;
+   flex-direction: row;
+   padding: 30px;
+   background-color: rgb(18, 18, 110);
+   justify-content: space-between;
+}
+
+ 
+
+ 
+ 
+.Lang-help{
+   display:flex;
+   align-items: center;
+   gap: 90px;
+   
+}
+ 
+  
+  
+    
+.logincontainer {
+
+   justify-content: left;
+   
+    height: 100vh;
+   width: 500px ;
+   margin: auto;
+   background-color: white;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+   display: flex;
+   flex-direction: column;
+}
+
+.descrip{
+
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+    flex-direction:column;
+}
+
+input[type="email"]{
+    width: 300px;
+    border: solid 2px rgb(9, 14, 37);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    
+}
+input[type="email"]:focus{
+    outline: none;
+    border: solid 2px rgb(9, 14, 37);
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+ 
+
+p{
+    justify-content: center;
+    align-items: center;
+}
+
+ .border-box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+    
+ }
+ .border-box label{
+    
+    align-items: center;
+    justify-content: center;
+ }
+
+.btnmail{
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(11, 28, 216);
+    color:white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnmail:hover{
+     
+    background: linear-gradient(rgb(35, 40, 85),rgb(24, 13, 63));
+    transition: 4s;
+    cursor: pointer;
+}
+
+label{
+    
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+ .sgntxt{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+ }
+ 
