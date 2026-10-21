@@ -1,0 +1,59 @@
+ .addproduct-container {
+  display: flex;
+  justify-content: center;   
+  align-items: center;        
+  height: 100vh;              
+  background-color: #f9f9f9;  
+}
+
+.productfrm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;              
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productfrm input,
+.productfrm button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.productfrm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.productfrm  button:hover {
+  background-color: #0056b3;
+}
+
+
+ .form-control {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ }
+
+
+ .prod {
+   font-size: 24px;
+   margin-bottom: 10px;
+   font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+ .form-control:hover {
+  border-color: #007bff 3px solid  ;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

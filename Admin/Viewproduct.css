@@ -1,0 +1,24 @@
+ .contenttble{
+   
+    width: 80%;
+    padding: 30px;
+    
+}
+
+.Proddelete{
+    background-color: rgb(174, 24, 24);
+    color: white;
+    border:  16px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+
+
+.Proddelete:hover{
+    background-color: rgb(34, 11, 12);
+    color: white;
+    
+}
+
+
